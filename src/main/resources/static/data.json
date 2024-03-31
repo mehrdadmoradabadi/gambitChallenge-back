@@ -1,0 +1,359 @@
+[
+  {
+    "REGISTER_NAME": "0001-0002",
+    "ASSOCIATED": ["0001","0002"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Flow Rate",
+    "FORMAT": "REAL4",
+    "NOTE": "Unit: m³/h"
+  },
+  {
+    "REGISTER_NAME": "0003-0004",
+    "ASSOCIATED": ["0003","0004"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Energy Flow Rate",
+    "FORMAT": "REAL4",
+    "NOTE":  "Unit:GJ/h"
+  },
+  {
+    "REGISTER_NAME": "0005-0006",
+    "ASSOCIATED": ["0005","0006"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Velocity",
+    "FORMAT": "REAL4",
+    "NOTE": "Unit: m/s"
+
+  },
+  {
+    "REGISTER_NAME": "0007-0008",
+    "ASSOCIATED": ["0007","0008"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Fluid sound speed",
+    "FORMAT": "REAL4",
+    "NOTE": "Unit: m/s"
+  },
+  {
+    "REGISTER_NAME": "0009-0010",
+    "ASSOCIATED": ["0009","0010"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Positive accumulator",
+    "FORMAT": "LONG",
+    "NOTE": "Unit is selected by M31, and depends on totalizer multiplier"
+  },
+  {
+    "REGISTER_NAME": "0011-0012",
+    "ASSOCIATED": ["0011","0012"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Positive decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": "Same unit as the integer part"
+  },
+{
+    "REGISTER_NAME": "0013-0014",
+    "ASSOCIATED": ["0013","0014"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Negative accumulator",
+    "FORMAT": "LONG",
+    "NOTE": "Long is a signed 4-byte integer, lower byte first"
+  },
+{
+    "REGISTER_NAME": "0015-0016",
+    "ASSOCIATED": ["0015","0016"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Negative decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": "REAL4 is a format of Singular IEEE-754 number, also called FLOAT"
+  },
+{
+    "REGISTER_NAME": "0017-0018",
+    "ASSOCIATED": ["0017","0018"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Positive energy accumulator",
+    "FORMAT": "LONG",
+    "NOTE": " "
+  },
+{
+    "REGISTER_NAME": "0019-0020",
+    "ASSOCIATED": ["0019","0020"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Positive energy decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": ""
+  },
+{
+    "REGISTER_NAME": "0021-0022",
+    "ASSOCIATED": ["0021","0022"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Negative energy accumulator",
+    "FORMAT": "LONG",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0023-0024",
+    "ASSOCIATED": ["0023","0024"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Negative energy decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0025-0026",
+    "ASSOCIATED": ["0025","0026"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Net accumulator",
+    "FORMAT": "LONG",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0027-0028",
+    "ASSOCIATED": ["0027","0028"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Net decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0029-0030",
+    "ASSOCIATED": ["0029","0030"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Net energy accumulator",
+    "FORMAT": "LONG",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0031-0032",
+    "ASSOCIATED": ["0031","0032"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Net energy decimal fraction",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },
+{
+    "REGISTER_NAME": "0033-0034",
+    "ASSOCIATED": ["0033","0034"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Temperature #1/inlet",
+    "FORMAT": "REAL4",
+    "NOTE": "Unit: C"
+  },
+{
+    "REGISTER_NAME": "0035-0036",
+    "ASSOCIATED": ["0035","0036"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Temperature #2/outlet",
+    "FORMAT": "REAL4",
+    "NOTE": "Unit: C"
+  },
+{
+    "REGISTER_NAME": "0037-0038",
+    "ASSOCIATED": ["0037","0038"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Analog input AI3",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },
+{
+    "REGISTER_NAME": "0039-0040",
+    "ASSOCIATED": ["0039","0040"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Analog input AI4",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },{
+    "REGISTER_NAME": "0041-0042",
+    "ASSOCIATED": ["0041","0042"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Analog input AI5",
+    "FORMAT": "REAL4",
+    "NOTE": " "
+  },
+  {
+    "REGISTER_NAME": "0043-0044",
+    "ASSOCIATED": ["0043","0044"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Current input at AI3",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit mA"
+  },
+{
+    "REGISTER_NAME": "0045-0046",
+    "ASSOCIATED": ["0045","0046"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Current input at AI3",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit mA"
+  },
+{
+    "REGISTER_NAME": "0047-0048",
+    "ASSOCIATED": ["0047","0048"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Current input at AI3",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit mA"
+  },
+{
+    "REGISTER_NAME": "0049-0050",
+    "ASSOCIATED": ["0049","0050"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "System password",
+    "FORMAT": "BCD",
+    "NOTE": "Writable。00H for unlock"
+  },
+{
+    "REGISTER_NAME": "0051",
+    "ASSOCIATED": ["0051"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Password for hardware",
+    "FORMAT": "BCD",
+    "NOTE": "Writable。“A55Ah” for unlock"
+  },
+  {
+    "REGISTER_NAME": "0053-0054-0055",
+    "ASSOCIATED": ["0053","0054","0055"],
+    "NUMBER": 3,
+    "VARIABLE_NAME": "Calendar (date and time)",
+    "FORMAT": "BCD",
+    "NOTE": "Writable。6 Bytes of BCD stands SMHDMY，lower byte first"
+  },
+  {
+    "REGISTER_NAME": "0056",
+    "ASSOCIATED": ["0056"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Day+Hour for Auto-Save",
+    "FORMAT": "BCD",
+    "NOTE": "Writable。For example 0512H stands Auto-save on 12:00 on 5th。0012H for 12:00 on everyday。"
+  }, {
+    "REGISTER_NAME": "0059",
+    "ASSOCIATED": ["0059"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Key to input",
+    "FORMAT": "INTEGER",
+    "NOTE": "Writable"
+  },
+  {
+    "REGISTER_NAME": "0060",
+    "ASSOCIATED": ["0060"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Go to Window #",
+    "FORMAT": "INTEGER",
+    "NOTE": "Writable"
+  }, {
+    "REGISTER_NAME": "0061",
+    "ASSOCIATED": ["0061"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "LCD Back-lit lights for number of seconds",
+    "FORMAT": "INTEGER",
+    "NOTE": "Writable。In unit second"
+  }, {
+    "REGISTER_NAME": "0062",
+    "ASSOCIATED": ["0062"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Times for the beeper",
+    "FORMAT": "INTEGER",
+    "NOTE": "Writable Max 255"
+  }, {
+    "REGISTER_NAME": "0072",
+    "ASSOCIATED": ["0072"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Error Code",
+    "FORMAT": "BIT",
+    "NOTE": "16bits"
+  }, {
+    "REGISTER_NAME": "0077-0078",
+    "ASSOCIATED": ["0077","0078"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "PT100 resistance of inlet",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit Ohm"
+  }, {
+    "REGISTER_NAME": "0079-0080",
+    "ASSOCIATED": ["0079","0080"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "PT100 resistance of outlet",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit Ohm"
+  },
+  {
+    "REGISTER_NAME": "0081-0082",
+    "ASSOCIATED": ["0081","0082"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Go to Window #",
+    "FORMAT": "INTEGER",
+    "NOTE": "Writable"
+  },
+   {
+    "REGISTER_NAME": "0083-0084",
+    "ASSOCIATED": ["0083","0084"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Delta travel time",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit Nino-second"
+  },
+   {
+    "REGISTER_NAME": "0085-0086",
+    "ASSOCIATED": ["0085","0086"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Upstream travel time",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit Micro-second"
+  },
+   {
+    "REGISTER_NAME": "0087-0088",
+    "ASSOCIATED": ["0087","0088"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Downstream travel time",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit Micro-second"
+  },
+   {
+    "REGISTER_NAME": "0089-0090",
+    "ASSOCIATED": ["0089","0090"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Output current",
+    "FORMAT": "REAL4",
+    "NOTE": "In unit mA"
+  },
+   {
+    "REGISTER_NAME": "0092",
+    "ASSOCIATED": ["0092"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Working step and Signal Quality",
+    "FORMAT": "INTEGER",
+    "NOTE": "The high byte is the step and low for signal quality，range 00-99，the larger the better"
+  },
+   {
+    "REGISTER_NAME": "0093",
+    "ASSOCIATED": ["0093"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Upstream strength",
+    "FORMAT": "INTEGER",
+    "NOTE": "Range 0-2047"
+  },
+   {
+    "REGISTER_NAME": "0094",
+    "ASSOCIATED": ["0094"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Downstream strength",
+    "FORMAT": "INTEGER",
+    "NOTE": "Range 0-2047"
+  },
+   {
+    "REGISTER_NAME": "0096",
+    "ASSOCIATED": ["0096"],
+    "NUMBER": 1,
+    "VARIABLE_NAME": "Language used in user interface",
+    "FORMAT": "INTEGER",
+    "NOTE": "0 : English，1:Chinese Other language will be supported later"
+  },
+   {
+    "REGISTER_NAME": "0097-0098",
+    "ASSOCIATED": ["0097","0098"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "The rate of the measured travel time by the calculated travel time.",
+    "FORMAT": "REAL4",
+    "NOTE": "Normal 100+-3%"
+  },
+  {
+    "REGISTER_NAME": "0099-0100",
+    "ASSOCIATED": ["0099","0100"],
+    "NUMBER": 2,
+    "VARIABLE_NAME": "Reynolds number",
+    "FORMAT": "REAL4",
+    "NOTE": ""
+  }
+]
