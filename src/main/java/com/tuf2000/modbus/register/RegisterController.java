@@ -17,7 +17,7 @@ public class RegisterController {
         return registerService.getRegister();
     }
 
-    @PostMapping(consumes = {"text/plain"},path = "/find")
+    @PostMapping(consumes = {"text/plain"},path = "/")
     public List<Map<String, String>> findRegister(@RequestBody String inputData) throws IOException {
         String[] lines = inputData.split("\\r?\\n");
         HashMap<String, Integer> dict = new HashMap<String, Integer> ();
