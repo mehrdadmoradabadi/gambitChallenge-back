@@ -29,20 +29,21 @@ public class RegisterService {
                 case 1 -> {
                     reg1 = input.get(associatedList[0]);
                     assert converter != null;
-                    resultList.add(Map.of(register.getVARIABLE_NAME(),converter.convert(reg1)));
+                    resultList.add(Map.of(register.getREGISTER_NAME()+" "+register.getVARIABLE_NAME(),converter.convert(reg1)));
                 }
                 case 2 -> {
                     reg1 = input.get(associatedList[0]);
                     reg2 = input.get(associatedList[1]);
                     assert converter != null;
-                    resultList.add(Map.of(register.getVARIABLE_NAME(),converter.convert(reg1, reg2)));
+                    resultList.add(Map.of(register.getREGISTER_NAME()+" "+register.getVARIABLE_NAME(),converter.convert(reg1, reg2)));
                 }
                 case 3 -> {
                     reg1 = input.get(associatedList[0]);
                     reg2 = input.get(associatedList[1]);
                     reg3 = input.get(associatedList[2]);
                     assert converter != null;
-                    resultList.add(Map.of(register.getVARIABLE_NAME(),((INTEGER) converter).convert(reg1, reg2, reg3)));
+                    resultList.add(Map.of(register.getREGISTER_NAME()+" "+register.getVARIABLE_NAME(),((INTEGER) converter).convert(reg1, reg2, reg3)));
+
                 }
             }} catch (Exception e) {
                 resultList.add(Map.of(register.getREGISTER_NAME(), "Not Implemented"));

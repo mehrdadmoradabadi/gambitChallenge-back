@@ -22,7 +22,7 @@ public class RegisterController {
         String[] lines = inputData.split("\\r?\\n");
         HashMap<String, Integer> dict = new HashMap<String, Integer> ();
         for (int i = 1; i < lines.length; i++) {
-            String[] keyValue = lines[i].split(":");
+            String[] keyValue = lines[i].strip().split(":");
             String key = String.format("%04d", Integer.parseInt(keyValue[0]));
             int value = Integer.parseInt(keyValue[1]);
             dict.put(key, value);}
