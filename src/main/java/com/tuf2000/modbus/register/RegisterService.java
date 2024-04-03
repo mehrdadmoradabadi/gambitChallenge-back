@@ -1,5 +1,6 @@
 package com.tuf2000.modbus.register;
 
+import com.tuf2000.modbus.logics.BCD;
 import com.tuf2000.modbus.logics.ConverterFactory;
 import com.tuf2000.modbus.logics.IBaseType;
 import com.tuf2000.modbus.logics.INTEGER;
@@ -42,7 +43,7 @@ public class RegisterService {
                     reg2 = input.get(associatedList[1]);
                     reg3 = input.get(associatedList[2]);
                     assert converter != null;
-                    resultList.add(Map.of(register.getREGISTER_NAME()+" "+register.getVARIABLE_NAME(),((INTEGER) converter).convert(reg1, reg2, reg3)));
+                    resultList.add(Map.of(register.getREGISTER_NAME()+" "+register.getVARIABLE_NAME(),((BCD) converter).convert(reg1, reg2, reg3)));
 
                 }
             }} catch (Exception e) {

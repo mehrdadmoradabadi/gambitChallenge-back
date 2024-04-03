@@ -273,7 +273,7 @@
     "ASSOCIATED": ["0081","0082"],
     "NUMBER": 2,
     "VARIABLE_NAME": "Go to Window #",
-    "FORMAT": "INTEGER",
+    "FORMAT": "REAL4",
     "NOTE": "Writable"
   },
    {

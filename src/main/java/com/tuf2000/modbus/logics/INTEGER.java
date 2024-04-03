@@ -15,9 +15,7 @@ public class INTEGER implements IBaseType {
     public String convert(int register1, int register2) {
         return null;
     }
-    public String convert(int register1, int register2, int register3) {
-        return null;
-    }
+
 
 
 }
