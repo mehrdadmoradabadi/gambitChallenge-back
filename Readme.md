@@ -1,8 +1,12 @@
 # Gambit Task
 
 This is a simple JAVA application to solve the Gambit challenge task.
-This will help you to translate the register values to the human-readable values
+This will help you to translate the register values to the human-readable values.
 
+This project has another repository for [Frontend]("https://github.com/mehrdadmoradabadi/gambitChallenge-front") feal free to check the backend part too.
+
+You can also visit live [Demo](https://gambitchallenge-back.onrender.com) 
+****
 ## Table of Contents
 
 - [Technologies](#technologies)
@@ -28,7 +32,7 @@ to get access to the endpoints.
 ```shell
 # Example setup commands
 git clone https://github.com/mehrdadmoradabadi/gambitChallenge-back.git
-cd project-name
+cd modbus
 mvn clean install
 java -jar target/modbus-0.0.1-SNAPSHOT.jar
 ```
