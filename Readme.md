@@ -3,7 +3,8 @@
 This is a simple JAVA application to solve the Gambit challenge task.
 This will help you to translate the register values to the human-readable values.
 
-This project has another repository for [Frontend]("https://github.com/mehrdadmoradabadi/gambitChallenge-front") feal free to check the backend part too.
+This project has another repository for [Frontend]("https://github.com/mehrdadmoradabadi/gambitChallenge-front")
+feel free to check the Front part too.
 
 You can also visit live [Demo](https://gambitchallenge-back.onrender.com) 
 ****
