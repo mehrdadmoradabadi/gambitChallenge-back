@@ -1,8 +1,4 @@
 package com.tuf2000.modbus.logics;
-
-import java.util.Arrays;
-import java.util.Optional;
-
 public enum ErrorCode {
     Unknown (0), // Bit0
     NoReceivedSignal(1), // Bit1

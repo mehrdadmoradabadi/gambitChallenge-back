@@ -25,7 +25,9 @@ You can also visit live [Demo](https://gambitchallenge-back.onrender.com)
 ## Setup
 
 This project is created using JAVA 17, so you need to have the version installed on your device. 
-By cloning the repository you will need to compile it, and then you can run it in your local machine. This project works on port 8080 so make sure the port is open. there is a hard coded username and password for simple authentication you can use:
+By cloning the repository, you will need to compile it, and then you can run it on your local machine.
+This project works on port 8080 so make sure the port is open.
+There is a hard-coded username and password for simple authentication you can use:
 ```agsl
 user
 password
@@ -42,11 +44,11 @@ java -jar target/modbus-0.0.1-SNAPSHOT.jar
 After successful installation and running the app you can use these endpoints to have access to the app.<p>
 this will give you access to see all the implemented registers:
 ```agsl
-http://localhost:8080/api/v1/register/all
+http://localhost:8080/api/v1/register/
 ```
 to get the human-readable format you need to `post` a request to the following endpoint and also the payload should be in `text` format.
 ```agsl
-http://localhost:8080/api/v1/register
+http://localhost:8080/api/v1/register/
 ```
 the result is in `JSON` format.
 

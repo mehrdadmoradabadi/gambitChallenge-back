@@ -16,7 +16,7 @@ public class BCD implements IBaseType {
     }
 
     public String convert(int register1, int register2, int register3) {
-        String firstHex = String.format("%04x", register1);;
+        String firstHex = String.format("%04x", register1);
         String secondHex = String.format("%04x", register2);
         String thirdHex = String.format("%04x", register3);
         firstHex = firstHex.substring(2,4)+ ":"+firstHex.substring(0,2)+ ":";

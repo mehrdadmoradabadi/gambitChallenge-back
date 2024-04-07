@@ -1,6 +1,5 @@
 package com.tuf2000.modbus.logics;
 
-import ch.qos.logback.core.spi.ErrorCodes;
 
 public class BIT implements IBaseType {
     @Override
@@ -13,6 +12,4 @@ public class BIT implements IBaseType {
     public String convert(int register1, int register2) {
         return null;
     }
-
-
 }

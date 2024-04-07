@@ -3,7 +3,6 @@ package com.tuf2000.modbus.register;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -13,15 +12,9 @@ class RegisterServiceTest {
 
     @Test
     public void testFindByInputData() throws IOException {
-        HashMap<String, Integer> input = new HashMap<>();
-        input.put("0001", 7579);
-        input.put("0002", 48988);
-        input.put("0003", 5064);
-        input.put("0004", 48142);
+        String input = "2017-01-11 19:12 \r\n0001:7579\r\n0002:48988\r\n0003:5064\r\n0004:48142\r\n";
         RegisterService registerService = new RegisterService();
-
-        List<Map<String, String>> result = registerService.findByInputData(input);
-
+        List<Map<String, String>> result = registerService.calculateByInputData(input);
         assertEquals(46, result.size());
         Map<String, String> resultMap = result.get(0);
         assertEquals("-0.85982674", resultMap.get("0001-0002 Flow Rate"));

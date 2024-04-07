@@ -8,7 +8,7 @@ class BITTest {
 
     @Test
     void convert() {
-        BIT bit=new BIT();;
+        BIT bit=new BIT();
         assertEquals("PoorReceivedSignal",bit.convert(4));
         assertEquals("Unknown",bit.convert(3));
     }
